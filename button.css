@@ -1,0 +1,50 @@
+button.buttonhide{
+	border-style: none;
+	color: #ffffff;
+	background-color:rgba(0,0,0,0);
+}
+
+button.buttonhide:focus{
+	outline:0;
+}
+
+.btn,a.btn,button.btn {
+	font-size: 1.2rem;
+	font-weight: 350;
+	line-height: 0.75;
+	position: relative;
+	display: inline-block;
+	padding: 0.5rem 2rem;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	letter-spacing: 0.05em;
+	color: #212529;
+	border-radius: 0.25rem;
+	opacity: 0.5;
+	//outline: none;
+}
+
+a.btn--blue {
+	color: #fff;
+	background: #ede8e8;
+	opacity: 1;
+	border-bottom: 5px solid #b8a2a2;
+}
+a.btn--blue:hover {
+	margin-top: 3px;
+	color: #b8a2a2;
+	background: #ede8e8;
+	border-bottom: 2px solid #b8a2a2;
+}
+a.btn--emboss {
+	color: #b8a2a2;
+	text-shadow: -1px -1px 1px #faebeb;
+}
